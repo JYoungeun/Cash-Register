@@ -99,7 +99,7 @@ const updateUI = change => {
     TWENTY: 'Twenties',
     'ONE HUNDRED': 'Hundreds'
   };
-
+  // Update cid if change is passed in
   if (change) {
     change.forEach(changeArr => {
       const targetArr = cid.find(cidArr => cidArr[0] === changeArr[0]);
